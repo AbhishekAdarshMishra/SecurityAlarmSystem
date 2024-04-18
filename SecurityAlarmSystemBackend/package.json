@@ -1,0 +1,21 @@
+{
+  "name": "security-alarm-system-backend",
+  "version": "1.0.0",
+  "description": "A security alarm system for the mobile towers.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js & nodemon iot-sensor-data.js"
+  },
+  "author": "Abhishek Adarsh Mishra",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
